@@ -1,0 +1,16 @@
+Disegnare un class diagram e un programma Java che rappresentino un modello teorico e uno funzionante della seguente realtà:
+
+Una lampadina ha le seguenti caratteristiche :
+- una tipologia (Incandescenza, Led, Neon) da rappresentare usando un'enumerazione (da trovare da soli in StarUML)
+- uno stato (accesa o spenta)
+- una vita, espressa in minuti
+- (AVANZATO) un nmero di minuti di funzionamento (quanto è stata accesa)
+- un colore
+La lampadina deve avere un metodo che che stampa le caratteristiche principali, un metodo che accende, uno che spegne e (AVANZATO) uno che inverte lo stato della lampadina (se acceso spegne, se spento accende)
+(AVANZATO) Un overload dell'operazione accendi deve accettare un numero di minuti che la lampadina deve rimanere accesa; tale numero incrementa il numero di minuti di funzionamento; se il numero di minuti totali supera la vita della lampadina, la lampadina non si deve più accendere.
+
+Un filare di luci per albero di natale con le seguenti caratteristiche:
+- un insieme di lampadine di diverso colore
+(MOLTO AVANZATO) implementare un gioco di luci; ad es. accendere per 1 minuto tutte le luci pari, mantenendo spente le dispari, poi per il successivo minuto invertire le luci.
+
+Un programma che predisponga un filare di 10 luci e lo faccia funzionare.
