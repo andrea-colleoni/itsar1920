@@ -1,0 +1,98 @@
+Lezione 1:
+==========
+OOP
+---
+Introduzione alla programmazione strutturata e alla programmazione OOP
+Motivazioni storiche dell'adozione del paradigma OOP
+Definizioni principali: Classi, Oggetti, Attributi, Operazioni
+
+Primi esempi usando il linguaggio Java
+Installazione del JDK
+HelloWorld
+Installazione di Eclipse
+Ripetizione di HelloWorld
+
+Rappresentazione di classi in Java
+Esempio del Rettangolo
+
+Lezione 2:
+==========
+OOP
+---
+Utilizzo della tecnica dell'incapsulamento per persegire il principio dell'Information Hiding
+Gestione privata dello stato
+Accessors e mutators
+Lo standard JavaBean: fields, getters e setters
+Utilizzo di metodi costruttori
+Significato di this
+
+Software Development Lifecycle
+------------------------------
+Analisi dei requisiti: la prima fase di un progetto informatico
+Analisi guidata dai casi d'uso
+Installazione e funzionamento di StarUML
+Introduzione di UML come formalismo di uso generale nell'analisi e progettazione del SW
+Diagramma dei casi d'uso
+Use case specification template
+Cenno ai wireframe
+
+Lezione 3:
+==========
+OOP
+---
+Ereditarietà
+Generalizzazione e specializzazione
+Super classe e sotto classe
+Override di metodi
+Differenza tra override e oveload
+Method signature: definizione
+Override di costruttori
+Uso del modificatore protected
+Esempi in Java
+Object come root di tutti gli oggetti in Java
+
+Software Development Lifecycle
+------------------------------
+Il modello a cascata; disamina delle fasi di un progetto
+Analisi dei requisiti e Design
+Design con l'ausilio del diagramma delle classi UML
+Esempi di class diagram con StarUML per rappresentare l'ereditarietà
+
+Lezione 4:
+==========
+OOP
+---
+Polimorfismo
+Uso polimorfico di un oggetto
+Struttura intrinseca di un oggetto e legame col suo costruttore
+Cast di un oggetto
+Esempi di polimorfismo in Java
+
+Software Development Lifecycle
+------------------------------
+UX/UI Design: principi di progettazione per l'usabilità
+Uso dei wireframe come strumento di comunicazione degli aspetti funzionali rilevanti di una UI
+Installazione ed uso di Balsamiq
+
+Esercitazione completa di analisi dei requisiti: use case diagram, use case definition e wireframe del progetto e-Dicola
+
+Lezione 5:
+==========
+OOP
+---
+Astrazione
+Definizione di metodi estratti
+Metodi e classi astratte non istanziabili
+Implementazione di metodi astratti
+Interfacce: defninizioni totalmente astratte
+Metafora del contratto nel SW e sua rappresentazione con le interfacce
+Esempi di astrazione in Java
+
+Software Development Lifecycle
+------------------------------
+Come l'astrazione influenza le metodologie di gestione dei progetti SW
+Ruolo dei contratti
+Dai modelli a cascata ai modelli AGILE
+Principi guida fondamentali: KISS e SOLID
+
+Esercitazione completa di design, usando UML e Java
