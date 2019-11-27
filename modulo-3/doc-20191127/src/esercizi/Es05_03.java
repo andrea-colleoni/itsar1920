@@ -1,11 +1,10 @@
 package esercizi;
 
-import java.util.Scanner;
 
 public class Es05_03 {
 
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
+		java.util.Scanner s = new java.util.Scanner(System.in);
 		System.out.print("Inserisci un numero: ");
 		int n = s.nextInt();
 		
