@@ -4,7 +4,7 @@ Una lampadina ha le seguenti caratteristiche :
 - una tipologia (Incandescenza, Led, Neon) da rappresentare usando un'enumerazione (da trovare da soli in StarUML)
 - uno stato (accesa o spenta)
 - una vita, espressa in minuti
-- (AVANZATO) un nmero di minuti di funzionamento (quanto è stata accesa)
+- (AVANZATO) un numero di minuti di funzionamento (quanto è stata accesa)
 - un colore
 La lampadina deve avere un metodo che che stampa le caratteristiche principali, un metodo che accende, uno che spegne e (AVANZATO) uno che inverte lo stato della lampadina (se acceso spegne, se spento accende)
 (AVANZATO) Un overload dell'operazione accendi deve accettare un numero di minuti che la lampadina deve rimanere accesa; tale numero incrementa il numero di minuti di funzionamento; se il numero di minuti totali supera la vita della lampadina, la lampadina non si deve più accendere.
