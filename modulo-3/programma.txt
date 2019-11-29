@@ -1,0 +1,27 @@
+Lezione 1:
+==========
+Java fundamentals
+---
+Java Ecosystem: Runtime, Platform (APIs: SE; EE e ME), Language
+Basic syntax (ripresa da quanto visto nel modulo precedente)
+Uso del debugger
+Branching: if e switch
+Looping: for, for each, while, do...while
+Procedure calling: analisi del program stack
+
+Esercizi:
+03 e 06
+
+Lezione 2:
+==========
+Java fundamentals
+---
+Utilizzo della classe Scanner per leggere input da tastiera
+Parse di interi
+Gestione delle eccezioni
+Cenni ai Generics
+Cenni alle collezioni
+
+Esercizi:
+01 e 00
+

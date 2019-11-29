@@ -1,0 +1,2 @@
+Numero righe lette: 14
+Numero caratteri letti: 161

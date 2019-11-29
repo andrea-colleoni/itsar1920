@@ -1,0 +1,6 @@
+# 1 riga dispari 
+# 2 riga pari
+# 3 riga dispari 
+# 4 riga pari
+# 5 riga dispari 
+# 6 riga pari

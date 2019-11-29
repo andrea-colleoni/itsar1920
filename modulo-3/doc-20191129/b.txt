@@ -1,0 +1,6 @@
+2 riga pari
+4 riga pari
+6 riga pari
+8 riga pari
+10 riga pari
+12 riga pari

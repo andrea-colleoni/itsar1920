@@ -1,0 +1,13 @@
+# 1 riga dispari 
+# 2 riga pari
+# 3 riga dispari 
+# 4 riga pari
+# 5 riga dispari 
+# 6 riga pari
+* 7 riga dispari 
+* 8 riga pari
+* 9 riga dispari 
+* 10 riga pari
+* 11 riga dispari 
+* 12 riga pari
+* 13
