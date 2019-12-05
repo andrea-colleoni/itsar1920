@@ -19,7 +19,7 @@ Lezione 2:
 ==========
 OOP
 ---
-Utilizzo della tecnica dell'incapsulamento per persegire il principio dell'Information Hiding
+Utilizzo della tecnica dell'incapsulamento per perseguire il principio dell'Information Hiding
 Gestione privata dello stato
 Accessors e mutators
 Lo standard JavaBean: fields, getters e setters

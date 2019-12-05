@@ -25,3 +25,17 @@ Cenni alle collezioni
 Esercizi:
 01 e 00
 
+Lezione 3:
+==========
+Java Programming
+---
+Java Collections Framework
+Java.io
+
+Lezione 4
+=========
+Java Programming
+---
+Java.io
+JDBC
+
