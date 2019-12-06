@@ -10,7 +10,7 @@ public class Stringhe {
 		char[] c = {'a', 'b', 'c'};
 		s = new String(c);
 		
-		s.
+		//s.
 
 	}
 
