@@ -28,7 +28,7 @@ public class ProgrammaJPA {
 		
 		Contatto sl = em.find(Contatto.class, 10);
 		em.getTransaction().begin();
-		sl.setTelefono("999888777");
+		sl.setNumTelefono("999888777");
 		em.getTransaction().commit();
 	}
 

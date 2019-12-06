@@ -23,7 +23,8 @@ public class Contatto implements Serializable {
 
 	private String nome;
 
-	private String telefono;
+	@Column(name = "telefono")
+	private String numTelefono;
 
 	public Contatto() {
 	}
@@ -60,18 +61,18 @@ public class Contatto implements Serializable {
 		this.nome = nome;
 	}
 
-	public String getTelefono() {
-		return this.telefono;
+	public String getNumTelefono() {
+		return this.numTelefono;
 	}
 
-	public void setTelefono(String telefono) {
-		this.telefono = telefono;
+	public void setNumTelefono(String telefono) {
+		this.numTelefono = telefono;
 	}
 
 	@Override
 	public String toString() {
 		return "Contatto [id=" + id + ", cognome=" + cognome + ", email=" + email + ", nome=" + nome + ", telefono="
-				+ telefono + "]";
+				+ numTelefono + "]";
 	}
 
 }
