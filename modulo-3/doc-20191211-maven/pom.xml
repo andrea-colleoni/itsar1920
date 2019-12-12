@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>itsar.ifts</groupId>
+	<artifactId>doc-20191211-maven</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Esercitazione JPA-Maven</name>
+	<description>Soluzione dell'esercizio JPA usando Maven</description>
+	<organization>
+		<name>ITS Angelo Rizzoli</name>
+	</organization>
+	<dependencies>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.18</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.4.10.Final</version>
+		</dependency>
+	</dependencies>
+</project>
