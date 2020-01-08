@@ -27,6 +27,19 @@ public class ProgrammaServer {
 					e.printStackTrace();
 				}
 			}).start();
+			/*
+			new Thread(new Runnable() {
+				
+				@Override
+				public void run() {
+					try {
+						chat(s);
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
+				}
+			}).start();
+			*/
 		}
 	}
 

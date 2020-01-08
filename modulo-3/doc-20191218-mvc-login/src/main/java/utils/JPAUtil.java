@@ -10,7 +10,7 @@ public class JPAUtil {
 	private static JPAUtil instance;
 
 	/**
-	 * 
+	 * singleton che mette a disposizione dell'applicazione l'EntityManagerFactory
 	 */
 	private JPAUtil() {
 		this.emf = Persistence.createEntityManagerFactory("appEsempio");

@@ -1,12 +1,22 @@
+Libri:
+======
+[1]: Java 1_ Basic syntax and semantics.pdf
+[2]: Java 4_ Java’s type system and collection classes.pdf
+[3]: Java.pdf
+[4]: JDBC.pdf
+[5]: JPA_Mini_Book.pdf
+
+
 Lezione 1:
 ==========
 Java fundamentals
 ---
-Java Ecosystem: Runtime, Platform (APIs: SE; EE e ME), Language
-Basic syntax (ripresa da quanto visto nel modulo precedente)
+Java Ecosystem: Runtime, Platform (APIs: SE; EE e ME), Language - § [1]: pgg 11, 
+Basic syntax (ripresa da quanto visto nel modulo precedente)- § [1]: pgg 16, 17, 26 - 33, 50 - 68 - [3] pgg 13 - 23
+Vairabili e tipi: § [1]: pgg 34 - 49, 68 - 76
 Uso del debugger
-Branching: if e switch
-Looping: for, for each, while, do...while
+Branching: if e switch § [1]: pgg 80 - 84, 95 - 104 - [3] pgg 72 - 81
+Looping: for, for each, while, do...while § [1]: pgg 85 - 95 - [3] pgg 60 - 71
 Procedure calling: analisi del program stack
 
 Esercizi:
@@ -18,7 +28,7 @@ Java fundamentals
 ---
 Utilizzo della classe Scanner per leggere input da tastiera
 Parse di interi
-Gestione delle eccezioni
+Gestione delle eccezioni  § [2]: pgg 70 - 84 - [3] pgg 274 - 289
 Cenni ai Generics
 Cenni alle collezioni
 
@@ -29,9 +39,9 @@ Lezione 3:
 ==========
 Java Programming
 ---
-Java Collections Framework
-Utilizzo di List, Set e Map e delle relative implememtazioni
-Java.io
+Java Collections Framework § [1]: pgg 105 - 114
+Utilizzo di List, Set e Map e delle relative implememtazioni § [2]: pgg 131 - 138, 145 - 146 (cenno), 153 - 154
+Java.io § [1]: pgg 115 - 119, 
 Uso degli stream (input e output)
 Uso delle classi di utilità per gli stream (readers e writers)
 
@@ -39,9 +49,9 @@ Lezione 4
 =========
 Java Programming
 ---
-Java.IO
+Java.IO [3] pgg 244 - 273
 Esempi di Java.IO su filesystem
-JDBC
+JDBC [4] pgg 19 - 64
 Struttura tipica di un programma JDBC: Connection, Statement, ResulSet
 
 Lezione 5
@@ -54,23 +64,23 @@ Introduzione ai Progetti
 Lezione 6
 =========
 Progetti
-Networking e costruzione di una chat su socket
+Networking e costruzione di una chat su socket [3] pgg 465 - 478
 ServerSocket (listener) e Socket (vera e propria connection)
-Threading
-Multithreading applicato al networking
-Interfacce funzionali
-Semplificazione dell'implementazione delle interfacce funzionali: Lambda
+Threading [3] pgg 487 - 509
+Multithreading applicato al networking 
+Interfacce funzionali (Runnable)
+Semplificazione dell'implementazione delle interfacce funzionali: Lambda § [2]: pgg 115
 
 Lezione 7
 =========
-ORM in Java: JPA
+Pattern ORM in Java: JPA [5] pgg 4 - 24 
 Entità e persistenza
 Configurazione di un progetto JPA in Eclipse
 
 Lezione 8
 =========
 Utilizzo di Maven per la gestione delle dipendenze
-Chiarimenti dulla gestione del classpath: build path, runtime classpath
+Chiarimenti sulla gestione del classpath: build path, runtime classpath
 Gestione del build path in Eclipse e differenze con Maven
 
 Lezione 9
@@ -85,7 +95,8 @@ Lezione 10
 Pattern MVC per lo sviluppo di UI
 MVC per il web
 Uso delle servlet come controller
-Ruolo del request dispatcher per le orpazioni a più passi
+Uso di JSP/JSTL/EL come view
+Ruolo del request dispatcher per le operazioni a più passi
 Implementazione della logica di business in un progetto
 Esposizione dei metodi di business come servizi
 Codifica JSON usando Jackson Databind
