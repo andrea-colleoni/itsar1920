@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Es01_02",
+            "request": "launch",
+            "mainClass": "esercizi.Es01_02",
+            "projectName": "doc-20191122"
+        }
+    ]
+}

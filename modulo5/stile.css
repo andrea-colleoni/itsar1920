@@ -1,0 +1,10 @@
+h2 {
+    font-variant: small-caps;
+    color: green;
+}
+.importante {
+    border: 2px dotted red;
+}
+#primoTitolo {
+    font-family: Arial, Helvetica, sans-serif;
+}
